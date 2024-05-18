@@ -26,7 +26,7 @@ export function MainScreen() {
     };
 
     return (
-        <div id="mainScreenDiv" className="flex flex-col lg:flex-row md:flex-col sm:flex-col bg-slate-900 h-screen px-10 lg:px-24 md:px-10 sm:px-10  overflow-y-auto lg:overflow-hidden md:overflow-y-auto sm:overflow-y-auto text-slate-400  justify-around">
+        <div id="mainScreenDiv" className="flex flex-col lg:flex-row md:flex-col sm:flex-col overflow-x-hidden w-screen bg-slate-900 h-screen px-10 lg:px-24 md:px-10 sm:px-10  overflow-y-auto lg:overflow-hidden md:overflow-y-auto sm:overflow-y-auto text-slate-400  justify-around">
             <LeftPage currentView={currentView} scrollToSectionMidpoint={scrollToSectionMidpoint} />
             <RightPage setCurrentView={setCurrentView} />
         </div>

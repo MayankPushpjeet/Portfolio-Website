@@ -16,7 +16,7 @@ export function ProjectCard(details:projectDetails){
             <div className="flex w-1/4 px-0 lg:px-4 md:px-4 sm:px-0">
                 <img src = {details.imageSrc} className="h-16 w-28 rounded-sm"></img>
             </div>
-            <div className="flex flex-col w-3/4  flex-wrap pl-0 sm:pl-0  md:pl-0 lg:pl-8 pt-2 sm:pt-2 md:pt-2 lg:pt-0">
+            <div className="flex flex-col w-full lg:w-3/4 flex-wrap pl-0 sm:pl-0  md:pl-0 lg:pl-8 pt-2 sm:pt-2 md:pt-2 lg:pt-0 ">
                 <div className={`flex flex-row flex-wrap ${hovered? ' text-teal-300':' text-white'} text-lg font-siliguri `}>
                     <p>
                         {details.title} 

@@ -19,7 +19,7 @@ export function ExperienceCard(details:jobDetails){
             <div className="flex w-1/4 px-0 lg:px-4 md:px-4 sm:px-0">
                 <p>{details.start} - {details.end}</p>
             </div>
-            <div className="flex flex-col w-3/4  flex-wrap pl-0 sm:pl-0  md:pl-0 lg:pl-8 pt-2 sm:pt-2 md:pt-2 lg:pt-0">
+            <div className="flex flex-col w-full lg:w-3/4  flex-wrap pl-0 sm:pl-0  md:pl-0 lg:pl-8 pt-2 sm:pt-2 md:pt-2 lg:pt-0">
                 <div className={`flex font-semibold text-xl ${hovered? ' text-emerald-300' : 'text-white' }`}>
                     {details.jobTitle} <span className="flex mx-2">@</span> {details.company}
                 </div>
