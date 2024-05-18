@@ -13,7 +13,7 @@ export function Footer(){
     const xLink = "https://twitter.com/PushpjeetMayank";
     const instagramLink = "https://www.instagram.com/mayankpushpjeet/";
     const linkdlnLink = "https://www.linkedin.com/in/mayank-pushpjeet-828680132";
-    return <div className = "flex justify-start space-x-4 lg:mt-auto md:mt-8 sm:mt-8">
+    return <div className = "flex justify-start space-x-4 mt-8 lg:mt-auto md:mt-8 sm:mt-8">
         <FooterIcon src = {GithubLogo} alt = "Github" link = {githubLink}></FooterIcon>
         <FooterIcon src = {CodeforcesLogo} alt = "Github" link = {codeforcesLink}></FooterIcon>
         <FooterIcon src = {LeetcodeLogo} alt = "Github" link = {leetcodeLink}></FooterIcon>

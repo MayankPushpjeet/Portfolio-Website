@@ -1,5 +1,5 @@
 export function Intro(){
-    return <div className="lg:space-y-4 md:space-y-8 sm:space-y-8">
+    return <div className="space-y-8 lg:space-y-4 md:space-y-8 sm:space-y-8">
         <div className="flex text-5xl text-slate-300 font-bold font-sans " style={{ textShadow: '2px 2px 4px rgba(200, 200, 200, 0.5)' }}>
             Mayank Pushpjeet
         </div>

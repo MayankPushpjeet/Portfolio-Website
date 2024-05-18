@@ -49,7 +49,7 @@ export function RightPage({ setCurrentView }: CredentialsProps) {
     }, [setCurrentView]);
 
     return (
-        <div className="flex flex-col lg:overflow-y-auto  lg:w-1/2 md:w-full sm:w-full lg:py-24 sm:py-4 md:py-8 hide-scrollbar lg:ml-10 md:ml-2 sm:ml-2" ref={mainDivRef} id="rightPage">
+        <div className="flex flex-col lg:overflow-y-auto  w-full lg:w-1/2 md:w-full sm:w-full py-4 lg:py-24 sm:py-4 md:py-8 hide-scrollbar ml-2 lg:ml-10 md:ml-2 sm:ml-2" ref={mainDivRef} id="rightPage">
             <div id="about"><About /></div>
             <div id="experience"><Experience /></div>
             <div id="projects"><Projects/></div>
